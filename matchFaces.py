@@ -5,8 +5,8 @@ from scipy.interpolate import interp1d
 from scipy.linalg import lu
 
 # Load images in grayscale mode
-image1 = cv2.imread("img1.jpg", cv2.IMREAD_GRAYSCALE)
-image2 = cv2.imread("img1.jpg", cv2.IMREAD_GRAYSCALE)
+image1 = cv2.imread("sample1.jpg", cv2.IMREAD_GRAYSCALE)
+image2 = cv2.imread("sample5.jpg", cv2.IMREAD_GRAYSCALE)
 
 # Check if images are loaded correctly
 if image1 is None or image2 is None:
